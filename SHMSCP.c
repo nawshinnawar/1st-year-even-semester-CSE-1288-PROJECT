@@ -223,7 +223,7 @@ void search()
         else
             printf("\n\nNot Found\n\n");
     }
-    else if(h==2)//problem is here.........
+    else if(h==2)
     {
         int f=1;
         fflush(stdin);
@@ -417,7 +417,7 @@ void read()
     FILE *fp = fopen("patient.txt","r");
     if(fp == NULL)
     {
-        //create empty file, so that we can open it
+        //created empty file, so that we can open it
         //in the next execution of this program
         fp = fopen("patient.txt","w");
         fclose(fp);
